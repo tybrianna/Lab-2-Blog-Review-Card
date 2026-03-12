@@ -1,0 +1,55 @@
+.container {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 350px;
+  height: 600px;
+  text-align: flex-start;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  justify-content: center;
+      margin: 100px auto;
+  border: 1px solid black;
+  box-shadow: 12px 12px 0px black;
+
+}
+
+.avatar {
+  width: 30px;
+  padding-left: 20px;
+}
+
+.container h4 {
+  padding-left: 20px;
+}
+
+.equilibrium-image {
+  width: 85%;
+  height: 85%;
+  padding-top: 5px;
+  border-radius: 15px;
+  padding-left: 20px;
+}
+
+.learning {
+  width: 120px;
+  border: filled;
+  border-radius: 5px;
+  background-color: hsl(47, 89, 63);
+  color: black;
+  padding-left: 20px;
+}
+
+.container p {
+  color:  grey;
+  padding-left: 20px;
+}
+
+.container h2 {
+  padding-left: 20px;
+}
+
+.container h3 {
+  padding-left: 20px;
+}
