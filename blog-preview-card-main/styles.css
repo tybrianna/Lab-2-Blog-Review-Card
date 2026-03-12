@@ -12,6 +12,7 @@
       margin: 100px auto;
   border: 1px solid black;
   box-shadow: 12px 12px 0px black;
+  background-color: white;
 
 }
 
@@ -25,20 +26,21 @@
 }
 
 .equilibrium-image {
-  width: 85%;
+  border-radius: 15%;
+  width: 87%;
   height: 85%;
-  padding-top: 5px;
-  border-radius: 15px;
-  padding-left: 20px;
+  padding: 20px;
+
 }
 
-.learning {
-  width: 120px;
-  border: filled;
+.button {
+  width: auto;
+  height: auto;
+  border-color: #f5d04e;
   border-radius: 5px;
-  background-color: hsl(47, 89, 63);
-  color: black;
-  padding-left: 20px;
+  background-color: #f5d04e;
+  padding: 5px 10px;
+  margin-left: 20px;
 }
 
 .container p {
@@ -52,4 +54,12 @@
 
 .container h3 {
   padding-left: 20px;
+}
+
+.container h4#name {
+  padding-left: 70px;
+}
+
+body {
+  background-color: #f5d04e;
 }
